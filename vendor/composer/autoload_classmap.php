@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'BaseController' => $baseDir . '/../cashbox.ramboo/cashbox2.ramboo.ru/app/controllers/BaseController.php',
+    'BaseController' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/controllers/BaseController.php',
     'DatabaseSeeder' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/database/seeds/DatabaseSeeder.php',
     'HomeController' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/controllers/HomeController.php',
     'IlluminateQueueClosure' => $vendorDir . '/laravel/framework/src/Illuminate/Queue/IlluminateQueueClosure.php',
