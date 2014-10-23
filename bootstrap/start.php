@@ -40,18 +40,7 @@ $env = $app->detectEnvironment(array(
 | may do so within the paths.php file and they will be bound here.
 |
 */
-
-$pathDir = '';
-switch ( $_SERVER['HTTP_HOST'] )
-{
-	case 'cashbox2-ramboo.1gb.ru':
-		$pathDir = __DIR__ . '/../../cashbox.ramboo/cashbox2.ramboo.ru/paths.php';
-		break;
-	default:
-		$pathDir = __DIR__ . '/../../cashbox.ramboo/cashbox.ramboo.ru/paths.php';
-		break;
-}
-$app->bindInstallPaths(require $pathDir);
+$app->bindInstallPaths(require __DIR__ . '/../../cashbox.ramboo/cashbox.ramboo.ru/paths.php');
 
 /*
 |--------------------------------------------------------------------------
