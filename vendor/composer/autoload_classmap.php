@@ -32,6 +32,7 @@ return array(
     'AttributeValue' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/orm/AttributeValue.php',
     
     'Brand' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/orm/Brand.php',
+    'RambooCard' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/orm/RambooCard.php',
     
     'Country' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/orm/Country.php',
     'Region' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/orm/Region.php',
