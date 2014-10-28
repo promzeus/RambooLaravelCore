@@ -21,6 +21,7 @@ return array(
 	'AppHelper' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/AppHelper.php',
 
     'Shop' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/orm/Shop.php',
+    'PartnerCard' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/orm/PartnerCard.php',
     'Partner' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/orm/Partner.php',
     'Cashier' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/orm/Cashier.php',
     
