@@ -17,7 +17,8 @@ return array(
     'Whoops\\Provider\\Zend\\RouteNotFoundStrategy' => $vendorDir . '/filp/whoops/src/deprecated/Zend/RouteNotFoundStrategy.php',
     
     // Models
-    
-    //'User' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/User.php',
-    'AppHelper' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/AppHelper.php',
+//     'User' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/User.php',
+	'AppHelper' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/AppHelper.php',
+        //'User' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/User.php',
+    	'AppHelper' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/AppHelper.php',
 );
