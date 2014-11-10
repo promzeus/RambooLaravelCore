@@ -18,7 +18,5 @@ return array(
     
     // Models
 //     'User' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/User.php',
-	'AppHelper' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/AppHelper.php',
-        //'User' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/User.php',
-    	'AppHelper' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/AppHelper.php',
+	   'AppHelper' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/models/AppHelper.php',
 );
