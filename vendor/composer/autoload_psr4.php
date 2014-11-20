@@ -5,7 +5,8 @@
 $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
-return array(
-    'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
-    'Ramboo\\' => array($baseDir . '/../services'),
-);
+return [
+    'Monolog\\' => [$vendorDir . '/monolog/monolog/src/Monolog'],
+    'Ramboo\\' => [$baseDir . '/../services'],
+    'Cashbox\\' => [$baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app']
+];
