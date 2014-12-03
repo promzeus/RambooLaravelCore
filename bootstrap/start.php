@@ -40,7 +40,20 @@ $env = $app->detectEnvironment(array(
 | may do so within the paths.php file and they will be bound here.
 |
 */
-$app->bindInstallPaths(require __DIR__ . '/../../cashbox.ramboo/cashbox.ramboo.ru/paths.php');
+if (!defined('APP_NAME')) define('APP_NAME','cashbox');
+	
+
+switch (APP_NAME)
+{
+    case 'cashbox':
+        $appPath = '/../../cashbox.ramboo/cashbox.ramboo.ru/paths.php';
+        break;
+    case 'partner':
+        $appPath = '/../../partner.ramboo/partner.ramboo.ru/paths.php';
+        break;
+}
+
+$app->bindInstallPaths(require __DIR__ . $appPath);
 
 /*
 |--------------------------------------------------------------------------
