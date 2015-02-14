@@ -9,5 +9,6 @@ return [
     'Monolog\\' => [$vendorDir . '/monolog/monolog/src/Monolog'],
     'Ramboo\\' => [$baseDir . '/../services'],
     'Cashbox\\' => [$baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app'],
-    'Partner\\' => [$baseDir . '/../partner.ramboo/partner.ramboo.ru/app']
+    'Partner\\' => [$baseDir . '/../partner.ramboo/partner.ramboo.ru/app'],
+    'Admin\\' => [$baseDir . '/../admin.ramboo/admin.ramboo.ru/app']
 ];

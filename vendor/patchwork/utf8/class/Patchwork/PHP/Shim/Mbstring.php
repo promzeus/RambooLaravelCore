@@ -101,7 +101,7 @@ class Mbstring
             $from_encoding = 'UTF-8';
         }
 
-        return iconv($from_encoding, $to_encoding . '//IGNORE', $s);
+        return iconv($from_encoding, $to_encoding, $s);
     }
 
     static function mb_decode_mimeheader($s)
