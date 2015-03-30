@@ -25,9 +25,7 @@ $app = new Illuminate\Foundation\Application;
 */
 
 $env = $app->detectEnvironment(array(
-
 	'local' => array('homestead'),
-
 ));
 
 /*
@@ -45,13 +43,16 @@ if (!defined('APP_NAME')) define('APP_NAME','cashbox');
 
 switch (APP_NAME)
 {
+    case 'store':
+        $appPath = '/../../store.ramboo/store.ramboo.ru/paths.php';
+        break;
     case 'cashbox':
         $appPath = '/../../cashbox.ramboo/cashbox.ramboo.ru/paths.php';
         break;
     case 'partner':
         $appPath = '/../../partner.ramboo/partner.ramboo.ru/paths.php';
-		break;
-	case 'admin':
+	break;
+    case 'admin':
         $appPath = '/../../admin.ramboo/admin.ramboo.ru/paths.php';
         break;
 }
