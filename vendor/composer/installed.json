@@ -1438,7 +1438,11 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
-                "Monolog\\": "src/Monolog"
+              "Cashbox\\": "/../../../../cashbox.ramboo/cashbox.ramboo.ru/app",
+              "Partner\\": "/../../../../partner.ramboo/partner.ramboo.ru/app",
+              "Admin\\": "/../../../../admin.ramboo/admin.ramboo.ru/app",
+              "Ramboo\\": "/../../../../services",
+              "Monolog\\": "src/Monolog"
             }
         },
         "notification-url": "https://packagist.org/downloads/",
