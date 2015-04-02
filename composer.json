@@ -6,6 +6,11 @@
 	"require": {
 		"laravel/framework": "4.2.*"
 	},
+    "autoload": {
+        "classmap": [
+            "../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations"
+        ]
+    },
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
