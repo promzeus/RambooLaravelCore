@@ -51,7 +51,10 @@ switch (APP_NAME)
         break;
     case 'partner':
         $appPath = '/../../partner.ramboo/partner.ramboo.ru/paths.php';
-	break;
+	    break;
+    case 'callcenter':
+        $appPath = '/../../callcenter.ramboo/callcenter.ramboo.ru/paths.php';
+        break;
     case 'admin':
         $appPath = '/../../admin.ramboo/admin.ramboo.ru/paths.php';
         break;

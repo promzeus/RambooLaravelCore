@@ -11,5 +11,7 @@ return [
     'Cashbox\\' => [$baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app'],
     'Partner\\' => [$baseDir . '/../partner.ramboo/partner.ramboo.ru/app'],
     'Admin\\' => [$baseDir . '/../admin.ramboo/admin.ramboo.ru/app'],
-    'Store\\' => [$baseDir . '/../store.ramboo/store.ramboo.ru/app']
+    'Store\\' => [$baseDir . '/../store.ramboo/store.ramboo.ru/app'],
+    'Depository\\' => [$baseDir . '/../depository.ramboo/depository.ramboo.ru/app'],
+    'Callcenter\\' => [$baseDir . '/../callcenter.ramboo/callcenter.ramboo.ru/app']
 ];

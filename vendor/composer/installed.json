@@ -1438,6 +1438,8 @@
         "installation-source": "dist",
         "autoload": {
             "psr-4": {
+              "Callcenter\\": "/../../../../callcenter.ramboo/callcenter.ramboo.ru/app",
+              "Depository\\": "/../../../../depository.ramboo/depository.ramboo.ru/app",
               "Cashbox\\": "/../../../../cashbox.ramboo/cashbox.ramboo.ru/app",
               "Partner\\": "/../../../../partner.ramboo/partner.ramboo.ru/app",
               "Admin\\": "/../../../../admin.ramboo/admin.ramboo.ru/app",
