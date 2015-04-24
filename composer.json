@@ -19,10 +19,5 @@
 	"config": {
 		"preferred-install": "dist"
 	},
-    "autoload": {
-        "classmap": [
-            "../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations"
-        ]
-    },
 	"minimum-stability": "stable"
 }
