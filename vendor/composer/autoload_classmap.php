@@ -73,6 +73,7 @@ return array(
     'ChangeStatusColumnKeywordsStats' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations/2015_01_26_154115_change_status_column_keywords_stats.php',
     'Contact' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations/2014_11_12_191233_contact.php',
     'CreateCCUserTable' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations/2015_04_22_140529_createCCUserTable.php',
+    'CreateRambooUser' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations/2015_04_24_140529_create_ramboo_user.php',
     'CreateTableNotice' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations/2015_03_30_101425_create_table_notice.php',
     'CreateTablesSalesProgram' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations/2015_04_14_061221_create_tables_sales_program.php',
     'DownloadCodePhrase' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations/2015_01_20_200139_download_code_phrase.php',
