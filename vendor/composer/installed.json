@@ -1444,6 +1444,7 @@
               "Cashbox\\": "/../../../../cashbox.ramboo/cashbox.ramboo.ru/app",
               "Partner\\": "/../../../../partner.ramboo/partner.ramboo.ru/app",
               "Admin\\": "/../../../../admin.ramboo/admin.ramboo.ru/app",
+	      "Store\\": "/../../../../store.ramboo/store.ramboo.ru/app",
               "Ramboo\\": "/../../../../services",
               "Monolog\\": "src/Monolog"
             }
