@@ -32,6 +32,7 @@ class PostgresConnector extends Connector implements ConnectorInterface {
 		$options = $this->getOptions($config);
 
 		$connection = $this->createConnection($dsn, $config, $options);
+        \Ramboo\PostrgesConnector\PostrgesConnector::init($connection);
 
 		$charset = $config['charset'];
 
