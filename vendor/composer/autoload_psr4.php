@@ -10,6 +10,7 @@ return array(
     'Ramboo\\' => array($baseDir . '/../services'),
     'Partner\\' => array($baseDir . '/../partner.ramboo/partner.ramboo.ru/app'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
+    'Intervention\\Image\\' => array($vendorDir . '/intervention/image/src/Intervention/Image'),
     'Depository\\' => array($baseDir . '/../depository.ramboo/depository.ramboo.ru/app'),
     'Cashbox\\' => array($baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app'),
     'Callcenter\\' => array($baseDir . '/../callcenter.ramboo/callcenter.ramboo.ru/app'),
