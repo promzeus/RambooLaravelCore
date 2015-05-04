@@ -41,10 +41,9 @@ class Connector {
 	public function createConnection($dsn, array $config, array $options)
 	{
 		$username = array_get($config, 'username');
-
 		$password = array_get($config, 'password');
-
-		return new PDO($dsn, $username, $password, $options);
+		// return new PDO($dsn, $username, $password, $options);
+        return \Ramboo\DBConnector\DBConnector::init()->connection('postgres');
 	}
 
 	/**

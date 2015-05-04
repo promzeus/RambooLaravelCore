@@ -32,10 +32,7 @@ class PostgresConnector extends Connector implements ConnectorInterface {
 		$options = $this->getOptions($config);
 
 		$connection = $this->createConnection($dsn, $config, $options);
-        \Ramboo\PostrgesConnector\PostrgesConnector::init($connection);
-
 		$charset = $config['charset'];
-
 		$connection->prepare("set names '$charset'")->execute();
 
 		// Unlike MySQL, Postgres allows the concept of "schema" and a default schema
