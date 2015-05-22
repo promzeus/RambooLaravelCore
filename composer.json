@@ -5,7 +5,9 @@
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.2.*",
-		"intervention/image": "~2.2"
+		"intervention/image": "~2.2",
+		"guzzle/guzzle" : "~3.8",
+		"brainboxlabs/brain-socket": "v1.0.0"
 	},
 	"scripts": {
 		"post-install-cmd": [
