@@ -1794,5 +1794,53 @@
             "thumbnail",
             "watermark"
         ]
+    },
+    {
+        "name": "kalnoy/nestedset",
+        "version": "v2.4.4",
+        "version_normalized": "2.4.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/lazychaser/laravel-nestedset.git",
+            "reference": "93981749a1b3e483aee39d01bbd00b2be27145bb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/lazychaser/laravel-nestedset/zipball/93981749a1b3e483aee39d01bbd00b2be27145bb",
+            "reference": "93981749a1b3e483aee39d01bbd00b2be27145bb",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/database": ">=4.1,<5.2.0",
+            "illuminate/events": ">=4.1,<5.2.0",
+            "illuminate/support": ">=4.1,<5.2.0",
+            "php": ">=5.4.0"
+        },
+        "time": "2015-06-23 11:04:15",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Kalnoy\\Nestedset\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Alexander Kalnoy",
+                "email": "lazychaser@gmail.com"
+            }
+        ],
+        "description": "Nested Set Model for Laravel 4",
+        "keywords": [
+            "database",
+            "hierarchy",
+            "laravel",
+            "nested sets",
+            "nsm"
+        ]
     }
 ]
