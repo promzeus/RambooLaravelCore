@@ -19,9 +19,6 @@ class ViewServiceProvider extends \Illuminate\View\ViewServiceProvider
      */
     public function register()
     {
-        
-        die('asdasd');
-
         // include the package config
         $this->mergeConfigFrom(
             __DIR__.'/config/blade.php', 'blade'
