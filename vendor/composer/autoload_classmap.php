@@ -147,7 +147,7 @@ return array(
     'Whoops\\Provider\\Zend\\ExceptionStrategy' => $vendorDir . '/filp/whoops/src/deprecated/Zend/ExceptionStrategy.php',
     'Whoops\\Provider\\Zend\\RouteNotFoundStrategy' => $vendorDir . '/filp/whoops/src/deprecated/Zend/RouteNotFoundStrategy.php',
     
-    'Wpb\String_Blade_Compiler\ViewServiceProvider' => $vendorDir . '/stringbladecompiler/src/ViewServiceProvider.php',
+    'Wpb\\String_Blade_Compiler\\ViewServiceProvider' => $vendorDir . '/stringbladecompiler/src/ViewServiceProvider.php',
     
     'Workshift' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations/2014_11_05_130120_workshift.php',
     'createStockAndStockworkers' => $baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app/database/migrations/2015_04_03_130000_createStockAndStockworkers.php',
