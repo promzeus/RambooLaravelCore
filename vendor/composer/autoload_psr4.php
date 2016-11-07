@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Store\\' => array($baseDir . '/../store.ramboo/store.ramboo.ru/app'),
+    'Wpb\\String_Blade_Compiler\\' => array($vendorDir . '/stringbladecompiler/src'),
     'Ramboo\\' => array($baseDir . '/../services'),
     'Partner\\' => array($baseDir . '/../partner.ramboo/partner.ramboo.ru/app'),
     'Monolog\\' => array($vendorDir . '/monolog/monolog/src/Monolog'),
