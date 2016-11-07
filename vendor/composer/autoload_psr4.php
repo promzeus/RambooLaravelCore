@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Wpb\\String_Blade_Compiler\\' => array($vendorDir . '/stringbladecompiler/src'),
     'Store\\' => array($baseDir . '/../store.ramboo/store.ramboo.ru/app'),
     'Wpb\\String_Blade_Compiler\\' => array($vendorDir . '/stringbladecompiler/src'),
     'Ramboo\\' => array($baseDir . '/../services'),
