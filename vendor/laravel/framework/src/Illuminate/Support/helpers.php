@@ -1016,3 +1016,32 @@ if ( ! function_exists('with'))
 		return $object;
 	}
 }
+
+/**
+ * Функция приведения телефона к "чистому" виду
+ * или к "подготовленному". Задается переменной $prepare.
+ *
+ * @param (str|int) $phone  Номер телефона.
+ * @param bln $prepare      Флаг надо ли "подготовить" телефон к стандартному виду.
+ *
+ * @return str
+ */
+function convertPhone($phone, $prepare = false) {
+	$phone = trim($phone);
+	if (empty($phone) || strlen($phone) < 11) return '';
+
+	// Если требуется подготовить телефон, собираем строчку по формату "+7 (123) 123-45-67"
+	if ((boolean) $prepare)
+		$phone = '+' . substr($phone, 0, 1) . ' (' . substr($phone, 1, 3) . ') ' . substr($phone, 4, 3) . '-' . substr($phone, 7, 2) . '-' . substr($phone, 9, 2);
+	else {
+		// Вырезаем все символы кроме цифр
+		$phone = preg_replace('![^\d]*!', '', $phone);
+
+		if (strlen($phone) > 11) return '';
+
+		// Если первый символ 8 - меняем на 7
+		if ($phone{0} == '8') $phone = '7' . substr($phone, 1);
+	}
+
+	return $phone;
+}
