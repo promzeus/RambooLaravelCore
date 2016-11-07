@@ -19,6 +19,8 @@ class ViewServiceProvider extends \Illuminate\View\ViewServiceProvider
      */
     public function register()
     {
+        
+        die('asdasd');
 
         // include the package config
         $this->mergeConfigFrom(
