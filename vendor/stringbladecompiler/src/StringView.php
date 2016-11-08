@@ -15,7 +15,7 @@ use Illuminate\Support\Fluent;
  * Mostly relates to storing the various components of the view object
  * such as template, cache_key, secondsTemplateCacheExpires.
  */
-class StringView extends View implements ArrayAccess, ViewContract
+class StringView extends Wpb\String_Blade_Compiler\View implements ArrayAccess, ViewContract
 {
 
     /**
