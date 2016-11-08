@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Wpb\\String_Blade_Compiler' => array($vendorDir . '/stringbladecompiler/src'),
     'Whoops' => array($vendorDir . '/filp/whoops/src'),
     'Thujohn\\Pdf' => array($vendorDir . '/thujohn/pdf/src'),
     'System' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
