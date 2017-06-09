@@ -17,5 +17,5 @@ return array(
     'Depository\\' => array($baseDir . '/../depository.ramboo/depository.ramboo.ru/app'),
     'Cashbox\\' => array($baseDir . '/../cashbox.ramboo/cashbox.ramboo.ru/app'),
     'Callcenter\\' => array($baseDir . '/../callcenter.ramboo/callcenter.ramboo.ru/app'),
-    'Admin\\' => array($baseDir . '/../admin.ramboo/admin.ramboo.ru/app'),
+    'Admin\\' => array($baseDir . '/../admin.grostyle/www/app'),
 );

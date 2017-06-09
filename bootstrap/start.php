@@ -59,7 +59,7 @@ switch (APP_NAME)
         $appPath = '/../../callcenter.ramboo/callcenter.ramboo.ru/paths.php';
         break;
     case 'admin':
-        $appPath = '/../../admin.ramboo/admin.ramboo.ru/paths.php';
+        $appPath = '/../../admin.grostyle/www/paths.php';
         break;
 }
 
